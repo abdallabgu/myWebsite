@@ -5,3 +5,21 @@
 	height: 35px;
 	background: white;
 }
+
+.photo-container {
+  display: inline-block;
+  width: 10px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo-container img {
+  width: 100%;
+  height: auto;
+}
+
+.photo-container:hover {
+  transform: scale(1.2);
+}
