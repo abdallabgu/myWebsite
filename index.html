@@ -2,160 +2,196 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<style type="text/css">
+ h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h2:before,
+h2:after {
+  content: '';
+  border-top: 8px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+  color: rgb(40, 85, 168);
+}
+h2:after {
+  margin: 0 0 0 20px;
+}
+body {
+  min-height: 100vh;
+}
+h2 {
+  margin: 30px 0;
+  font: 700 2em/1.4 'Avenir', sans-serif;
+  color: black;
+}
+</style>
+<style>
+#menu {
+  background-color: rgb(25, 0, 255);
+  position: fixed;
+  top: -50px; 
+  width: 100%; 
+  transition: top 0.3s; 
+}
+#menu a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
 </head>
 <body>
 <div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+<img class="logo" src="https://github.com/abdallabgu/myWebsite/blob/master/uDo6qU3J_400x400.png?raw=true" 
+width="50px" 
+height="50px"/>
+<a href="#about">About Me</a>
+<a href="#photos">My Photos</a>
+<a href="#playlist">My Playlist</a>
+<a href="#like">Like</a>
+<a href="#qrcoder">QR code</a>
+<a href="#spa">Q&A</a>
+<a href="#contact">Contact Me</a>
 </div>
-		  
 <section id="about" class="section">
 <br/>
 <br/>
 <br/>
+
+<h2><font size=6.5><span style="font-family: Impact;">about me</span></font></h2> 
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
+<font color="red"> <font size=6><span style="font-family: Comic Sans MS;"> <center> Welcome to my humble website, where I aim to share insights into my personal life.</br> My name is <font color="blue">Abdalla Asaad</font>, an Israeli Arab citizen residing in Cana Of Galile in the north.</br>
+ I live by three principles:</br> 1) No matter the challenges you encounter,you are the only one capable</br> of overcoming them; have faith in yourself.</br> 2) Family always comes first.</br>3) Support Real Madrid. :)</span></center> </font> </font>
 <br/>
 <br/>
 <br/>
 </section>
-
 <section id="photos" class="section">
 <br/>
+<h2><font size=6.5><span style="font-family: Impact;">Captivating Moments: A Glimpse into My World through Random Photos</span></font></h2>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+<center>
 
+<div class="photo-container">
+  <img src="https://github.com/abdallabgu/myWebsite/blob/master/image3.jpg?raw=true" alt="Your Photo">
+</div>
+<div class="photo-container">
+  <img src="https://github.com/abdallabgu/myWebsite/blob/master/image4.jpg?raw=true" alt="Your Photo">
+</div>
+
+<div class="photo-container">
+  <img src="https://github.com/abdallabgu/myWebsite/blob/master/image5.jpg?raw=true" alt="Your Photo">
+</div>
+<div class="photo-container">
+  <img src="https://github.com/abdallabgu/myWebsite/blob/master/image6.jpg?raw=true" alt="Your Photo">
+</div>
+<div class="photo-container">
+  <img src="https://github.com/abdallabgu/myWebsite/blob/master/image7.jpg?raw=true" alt="Your Photo">
+</div>
+<div class="photo-container">
+  <img src="https://github.com/abdallabgu/myWebsite/blob/master/image8.jpg?raw=true" alt="Your Photo">
+</div><br/>
+</center>
+</section>
 <section id="playlist" class="section">
 <br/>
 <br/>
 <br/>
+<h2><span style="font-family: Impact;">my playlist</span></h2>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
+<center>
+<iframe width="560" 
+height="315" 
+src="https://www.youtube.com/embed/videoseries?list=PLUaJcJdcPt_UC5GWYKDFV2Ikuldpz6yI7" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe></center>
 <br/>
 <br/>
 <br/>
 </section>
 
 <section id="like" class="section">
+
+<br/>
+<h2><span style="font-family: Impact;">My social life</span></h2>
+<br/>
+<center>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fgithub.com%2Fabdallabgu%2FmyWebsite%2Fblob%2Fmaster%2Findex.html&width=61&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId" 
+width="61" 
+height="21" 
+style="border:none;overflow:hidden" 
+scrolling="no" 
+frameborder="0" 
+allowTransparency="true" 
+allow="encrypted-media">
+</iframe></center>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
 <br/>
 <br/>
 <br/>
 </section>
-
 <section id="qrcoder" class="section">
+<h2><span style="font-family: Impact;">scan my code</span></h2>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
+<center>
+<img src="https://github.com/abdallabgu/myWebsite/blob/master/image2.png?raw=true" />
+</center>
 <br/>
 <br/>
 </section>
-
 <section id="spa" class="section">
 <br/>
 <br/>
+
 <br/>
 <br/>
+<h2><span style="font-family: Impact;">ans</span></h2>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
+<font size="5"> <font color = blue>
+<li>Web 1.0
+It is the “readable” phrase of the World Wide Web with flat data. In Web 1.0, there is only limited interaction between sites and web users. Web 1.0 is simply an information portal where users passively receive information without being given the opportunity to post reviews, comments, and feedback.
+</li>
+<li>Web 2.0
+It is the “writable” phrase of the World Wide Web with interactive data. Unlike Web 1.0, Web 2.0 facilitates interaction between web users and sites, so it allows users to interact more freely with each other. Web 2.0 encourages participation, collaboration, and information sharing. Examples of Web 2.0 applications are Youtube, Wiki, Flickr, Facebook, and so on.
+</li>
+<li>Web 3.0
+It is the “executable” phrase of Word Wide Web with dynamic applications, interactive services, and “machine-to-machine” interaction. Web 3.0 is a semantic web which refers to the future. In Web 3.0, computers can interpret information like humans and intelligently generate and distribute useful content tailored to the needs of users. One example of Web 3.0 is Tivo, a digital video recorder. Its recording program can search the web and read what it finds to you based on your preferences.
+</li></font></font>
 <br/>
 </section>
-
 <section id="contact" class="section">
 <br/>
 <br/>
 <br/>
+<font color=red><font size="5">let's take an examples about the uses of web 1,2 and 3 as a <mark> use case</mark>:</br>
+
+lets take that i am a football fan and a RealMadrid supporter and I want to know how many trophies does RealMadrid has. if I search about it in the web, what do I receive in return ?
+in web 1.0 probably static website with explanations
+in the other side, I mean in web 2.0:  I can Google it “RealMadrid's trophies number” with pretty good results - it means that in google i will get my Results!
+but in web 3.0 we receive :  we can use create RealMadrid's trophies number database which based on more than milliards user posts. So, we can see other posts like mine which indexed and
+organized in unified the other teams DB.</font></font>
+
 <br/>
 <br/>
 <br/>
@@ -169,13 +205,23 @@ ans
 <br/>
 <br/>
 <br/>
-contact me
+<h2><span style="font-family: Impact;">contact me</span></h2>
 <br/>
+<br/>
+<center>
+<form action="mailto:asaada@post.bgu.ac.il" method="post" enctype="text/plain">
+  <font size="5">Name:</font> <br>
+  <input type="text" name="name" ><br>
+  <font size="5">E-mail:</font><br>
+  <input type="text" name="mail"><br>
+  <font size="5">Comment:</font><br>
+  <input type="text" name="comment" size="50"><br><br>
+  <input type="submit" value="Send" >
+  <input type="reset" value="Reset">
+  </form></center>
 <br/>
 <br/>
 </section>
-
-
 <script type="text/javascript">
 $(function(){
   $("#nav a").click(function(e){
@@ -188,6 +234,17 @@ $(function(){
  $(document).scroll(function() {
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
+ </script>
+ <script>
+  window.onscroll = function() {scrollFunction()};
+ 
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("menu").style.top = "0";
+    } else {
+      document.getElementById("menu").style.top = "-50px";
+    }
+  }
  </script>
 </body>
 </html>
